@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.header{
+			width: 1600px;
+			height: 70px;
+			background-color: gainsboro;
+			
+		}
+		
+		.charts-conatiner{
+			width: 900px;
+			height: 900px;
+			
+			margin-left: 350px;
+			
+		}
+
+		.header-center{
+			width: 900px;
+			height: 70px;
+		
+			margin: auto;
+			display: flex;
+		}
+
+		.charts-sort{
+			width: 900px;
+			height: 70px;
+		
+			
+		}
+
+		.charts-up{
+			width: 900px;
+			height: 100px;
+			
+			margin-top: 10px;
+			display: flex;
+			background: linear-gradient(to right, green, aquamarine, blue, darkblue);
+
+		}
+
+		.abu1{
+			width: 900px;
+			height: 100px;
+			
+			margin-top: 10px;
+			display: flex;
+			background: linear-gradient(to right, pink, brown, red, yellow, green, darkgreen);
+
+		}
+
+		.abu2{
+			width: 900px;
+			height: 100px;
+			
+			margin-top: 10px;
+			display: flex;
+			background: linear-gradient(to right, pink, brown, red);
+
+		}
+
+		.abu3{
+            width: 900px;
+			height: 100px;
+			
+			margin-top: 10px;
+			display: flex;
+			background: linear-gradient(to right, darkgreen, darkblue, aquamarine);
+
+		}
+
+		.abu4{
+			width: 900px;
+			height: 100px;
+			
+			margin-top: 10px;
+			display: flex;
+			background: linear-gradient(to right, darkblue, purple, pink, gray);
+
+		}
+
+		.abu5{
+			width: 900px;
+			height: 100px;
+			
+			margin-top: 10px;
+			display: flex;
+			background: linear-gradient(to right, pink, brown, red);
+
+
+		}
+
+		.abu6{
+			width: 900px;
+			height: 100px;
+			
+			margin-top: 10px;
+			display: flex;
+			background: linear-gradient(to right,blue,green,black,purple,red,yellow);
+
+		}
+
+		.div1{
+			width: 169px;
+			height: 70px;
+			
+		}
+
+		.div2{
+			width: 600px;
+			height: 70px;
+			
+			margin-left: 2px;
+			display: flex;
+			gap: 50px;
+		}
+
+		.div3{
+			width: 129px;
+			height: 70px;
+			
+			margin-left: 2px;
+		}
+
+		.div4{
+			width: 100px;
+			height: 100px;
+			
+		}
+
+		.div5{
+			width: 500px;
+			height: 100px;
+			
+
+		}
+
+		.div6{
+			width: 200px;
+			height: 100px;
+			
+
+		}
+
+		.div7{
+			width: 100px;
+			height: 100px;
+			
+
+		}
+
+		.ddd1{
+			width: 100px;
+			height: 100px;
+			
+
+		}
+
+		.ddd2{
+			width: 500px;
+			height: 100px;
+			
+
+		}
+
+		.ddd3{
+			width: 200px;
+			height: 100px;
+			
+
+		}
+
+		.ddd4{
+			width: 100px;
+			height: 100px;
+			
+
+		}
+
+		.aaa1{
+			width: 100px;
+			height: 100px;
+			
+
+		}
+
+		.aaa2{
+			width: 500px;
+			height: 100px;
+			
+
+		}
+
+		.aaa3{
+			width: 200px;
+			height: 100px;
+			
+
+		}
+
+		.aaa4{
+			width: 100px;
+			height: 100px;
+			
+
+		}
+
+		.vvv1{
+			width: 100px;
+			height: 100px;
+			
+
+		}
+
+		.vvv2{
+			width: 500px;
+			height: 100px;
+			
+
+		}
+
+		.vvv3{
+			width: 200px;
+			height: 100px;
+			
+
+		}
+
+		.vvv4{
+			width: 100px;
+			height: 100px;
+			
+
+		}
+
+		.fff1{
+			width: 100px;
+			height: 100px;
+			
+		}
+
+		.fff2{
+			width: 500px;
+			height: 100px;
+			
+		}
+
+		.fff3{
+			width: 200px;
+			height: 100px;
+			
+		}
+
+		.fff4{
+			width: 100px;
+			height: 100px;
+			
+		}
+
+		.lll1{
+			width: 100px;
+			height: 100px;
+			
+		}
+
+		.lll2{
+			width: 500px;
+			height: 100px;
+			
+		}
+
+		.lll3{
+			width: 200px;
+			height: 100px;
+			
+		}
+
+		.lll4{
+			width: 100px;
+			height: 100px;
+			
+		}
+
+		.zzz1{
+			width: 100px;
+			height: 100px;
+		}
+
+		.zzz2{
+			width: 500px;
+			height: 100px;
+			
+		}
+
+		.zzz3{
+			width: 200px;
+			height: 100px;
+			
+		}
+
+		.zzz4{
+			width: 100px;
+			height: 100px;
+			
+		}
+
+		.sss{
+			width: 169px;
+			height: 50px;
+			margin-top: 10px;
+			
+		}
+
+		.www1{
+			color: white;
+			margin-left: 30px;
+		}
+
+		.www2{
+			color: white;
+		}
+
+		.www3{
+			color: red;
+		}
+
+		.www4{
+			color: orange;
+		}
+
+		.ppp{
+			width: 129px;
+			height: 40px;
+			margin-top: 15px;
+			background-color: darkviolet;
+			color: white;
+			border: none;
+		}
+
+		.hhh1{
+			width: 100px;
+			height: 30px;
+			margin-top: 20px;
+			background-color: orange;
+			color: white;
+			border: none;
+
+		}
+
+		.hhh2{
+			width: 100px;
+			height: 30px;
+			margin-top: 20px;
+			background-color: red;
+			color: white;
+			border: none;
+		}
+
+		.hhh3{
+			width: 100px;
+			height: 30px;
+			margin-top: 20px;
+			
+			color: white;
+			border: none;
+		}
+
+		.hhh4{
+			width: 100px;
+			height: 30px;
+			margin-top: 20px;
+			background-color: darkmagenta;
+			color: white;
+			border: none;
+		}
+
+		.jjj{
+			text-align: center;
+		}
+
+		.jjj2{
+			text-align: center;
+			color: darkgreen;
+		}
+
+		.abu50{
+		
+			color: white;
+			margin-top: 10px;
+			width: 150px;
+			height: 30px;
+			border: none;
+			border-radius: 5px;
+			background-color: blue;
+		}
+
+		.ggg2{
+			width: 80px;
+			height: 80px;
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+
+		.ccc1{
+			color: darkblue;
+		}
+
+		.ccc2{
+			color: white;
+		}
+
+		.abu51{
+			text-align: center;
+		}
+
+		.abu52{
+			text-align: center;
+			color: darkorange;
+		}
+
+		.kkk1{
+			color: darkblue;
+		}
+
+		.kkk2{
+			color: white;
+		}
+
+		.ooo{
+			width: 140px;
+			height: 30px;
+			margin-top: 10px;
+			border: none;
+			border-radius: 5px;
+			background-color: darkgreen;
+			color: white;
+		}
+
+		.bbb2{
+			width: 80px;
+			height: 80px;
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+
+		.mmm1{
+			text-align: center;
+		}
+
+		.mmm2{
+			text-align: center;
+			color: darkorange;
+		}
+
+		.ppp2{
+			color: darkblue;
+		}
+
+		.ppp3{
+			color: white;
+		}
+
+		.ttt{
+			width: 140px;
+			height: 30px;
+			margin-top: 10px;
+			border: none;
+			border-radius: 5px;
+			background-color: darkgreen;
+			color: white; 
+		}
+
+		.abu100{
+			width: 80px;
+			height: 80px;
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+
+		.abu101{
+			text-align: center;
+		}
+
+		.abu102{
+			text-align: center;
+			color: darkgreen;
+		}
+
+		.abu103{
+			color: darkblue;
+		}
+
+		.abu104{
+			color: white;
+		}
+
+		.abu105{
+			width: 140px;
+			height: 30px;
+			margin-top: 10px;
+			border: none;
+			border-radius: 5px;
+			background-color: darkgreen;
+			color: white;
+		}
+
+		.abu106{
+			width: 80px;
+			height: 80px;
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+
+		.abu110{
+			color: red;
+			text-align: center;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="header-center">
+			<div class="div1">
+				<img class="sss" src="Billboard_logo.svg.png" alt="">
+			</div>
+			<div class="div2">
+				<h2 class="www1">CHATRS</h2>
+				<h2 class="www2">NEWS</h2>
+				<h2 class="www3">VIDEO</h2>
+				<h2 class="www4">PHOTOS</h2>
+			</div>
+			<div class="div3">
+				<button class="ppp">subscribe</button>
+			</div>
+		</div>
+	</div>
+	<div class="charts-conatiner">
+		<div class="charts-sort">
+			<button class="hhh1">THIS WEEK</button>
+			<button class="hhh2">LAST WEEK</button>
+			<button class="hhh3">PEAK</button>
+			<button class="hhh4">DURATION</button>
+		</div>
+		<div class="charts-up">
+			<div class="div4">
+				<h2 class="jjj">1</h2>
+				<h3 class="jjj2">Up</h3>
+			</div>
+			<div class="div5">
+				<h3 class="ccc1">Savage Love (Laxed - Siren Beat)</h3>
+				<h3 class="ccc2">Jaws 685 x Jason Derulo x BTS</h3>
+			</div>
+			<div class="div6">
+				<button class="abu50">Воспроизвести</button>
+			</div>
+			<div class="div7">
+				<img class="ggg2" src="ab67616d0000b2730f619e50cfa37c94e3f8300e.jpg" alt="">
+			</div>
+		</div>
+		<div class="abu1">
+			<div class="ddd1">
+				<h2 class="abu51">2</h2>
+				<h3 class="abu52">New</h3>
+			</div>
+			<div class="ddd2">
+				<h3 class="kkk1">Dynamite</h3>
+				<h3 class="kkk2">BTS</h3>
+			</div>
+			<div class="ddd3">
+				<button class="ooo">Купить</button>
+			</div>
+			<div class="ddd4">
+				<img class="bbb2" src="Без названия.jpg" alt="">
+			</div>
+		</div>
+		<div class="abu2">
+			<div class="aaa1">
+				<h2 class="mmm1">3</h2>
+				<h3 class="mmm2">New</h3>
+			</div>
+			<div class="aaa2">
+				<h3 class="ppp2">WAP</h3>
+				<h3 class="ppp3">Cardi B featuring Megan Thee Stalion</h3>
+			</div>
+			<div class="aaa3">
+				<button class="ttt">Купить</button>
+			</div>
+			<div class="aaa4">
+				<img class="abu100" src="Без названия (1).jpg" alt="">
+			</div>
+		</div>
+		<div class="abu3">
+			<div class="vvv1">
+				<h2 class="abu101">4</h2>
+				<h3 class="abu102">Up</h3>
+			</div>
+			<div class="vvv2">
+				<h3 class="abu103">Mood</h3>
+				<h3 class="abu104">24kGoldn featuring iann dior</h3>
+			</div>
+			<div class="vvv3">
+				<button class="abu105">Купить</button>
+			</div>
+			<div class="vvv4">
+				<img class="abu106" src="images.jpg" alt="">
+			</div>
+		</div>
+		<div class="abu4">
+			<div class="fff1">
+				<h2 class="abu101">5</h2>
+				<h3 class="abu110">Down</h3>
+			</div>
+			<div class="fff2">
+				<h3 class="abu103">Laugh Now Cry Later</h3>
+				<h3 class="abu104">Drake featuring Lil Durk</h3>
+			</div>
+			<div class="fff3">
+				<button class="abu105">Купить</button>
+			</div>
+			<div class="fff4">
+				<img class="abu106" src="Без названия (2).jpg" alt="">
+			</div>
+		</div>
+		<div class="abu5">
+			<div class="lll1">
+				<h2 class="abu101">6</h2>
+				<h3 class="mmm2">New</h3>
+			</div>
+			<div class="lll2">
+				<h3 class="abu103">Blinding Lights</h3>
+				<h3 class="abu104">The Weekend</h3>
+			</div>
+			<div class="lll3">
+				<button class="abu50">Воспроизвести</button>
+			</div>
+			<div class="lll4">
+				<img class="abu106" src="The_Weeknd_-_Blinding_Lights.png" alt="">
+			</div>
+		</div>
+		<div class="abu6">
+			<div class="zzz1">
+				<h2 class="abu101">7</h2>
+				<h3 class="jjj2">Up</h3>
+			</div>
+			<div class="zzz2">
+				<h3 class="abu103">Rockstar</h3>
+				<h3 class="abu104">DaBaby featuring Roddy Ricch</h3>
+			</div>
+			<div class="zzz3">
+				<button class="abu50">Воспроизвести</button>
+			</div>
+			<div class="zzz4">
+				<img class="abu106" src="Без названия (3).jpg" alt="">
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
